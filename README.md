@@ -1,7 +1,7 @@
 # Calc
 javaCore_Calc - is a console program that perform simple math operations: add, substract, multiply and divide.
 It was created in study purposes.
-Projec contains **Main** class and two additional classes: **MathAction** and **ReadValue**.
+Project contains **Main** class and two additional classes: **MathAction** and **ReadValue**.
 
    **Main class**
 
