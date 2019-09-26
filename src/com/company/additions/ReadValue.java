@@ -12,7 +12,7 @@ public class ReadValue {
             do {
                 if (c == 0) System.out.println("Enter numeric value:");
                 else System.out.println("Wrong value format. Please reenter double value:");
-                str = s.nextLine();
+                str = s.nextLine().trim();
                 c++;
             } while (!Pattern.matches("[-]?\\d*[.]?\\d*", str));
             return Double.parseDouble(str);
@@ -24,7 +24,7 @@ public class ReadValue {
             do {
                 if (c == 0) System.out.println("Enter action ( + - * / ):");
                 else System.out.println("Wrong action format. Please reenter action ( + - * / ):");
-                str = s.nextLine();
+                str = s.nextLine().trim();
                 c++;
             } while (!Pattern.matches("[-+*/]{1}", str));
             return str;
