@@ -28,3 +28,12 @@ and returns the result in **BigDecimal** format;
 and returns the result in **BigDecimal** format;
 * **public static BigDecimal performAction(double d1, double d2, String act)** - calls on of the described above methods depending on 
 *act* input parameter (desired math action).
+
+# To run the code:
+
+1. Click on Run Main() button or press Shift+F10;
+2. Type in console the first value and press Enter button;
+3. Type in console the desired action and press Enter button;
+4. Type in console the second value and press Enter button;
+5. Observe the result in console.
+
